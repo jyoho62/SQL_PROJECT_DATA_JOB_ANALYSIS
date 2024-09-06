@@ -43,7 +43,7 @@ Here's how I approached each question:
 
 ### 1. Top Paying Data Analyst Jobs
 
-To identify the highest-paying roles]I filtered data analyst positions by average yearly salary and location, focusing on remote jobs. This query highlights the high-paying opportunities in the field.
+To identify the highest-paying roles I filtered data analyst positions by average yearly salary and location, focusing on remote jobs. This query highlights the high-paying opportunities in the field.
 
 ```SQL
 SELECT
@@ -82,7 +82,7 @@ salaries for data analysts; ChatGPT generated this
 graph from my SQL query results*
 
 ### 2. Skills for Top Paying Jobs
-To understand what skills are required for the top-paying jobs, I joined the job postings with the skills data, providing insights into what employers value for high-compensation roles.
+To understand what skills are required for top-paying jobs, I joined the job postings with the skills data, providing insights into what employers value for high-compensation roles.
 
 ```SQL
 WITH top_paying_jobs AS (
